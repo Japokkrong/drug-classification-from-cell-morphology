@@ -1,6 +1,6 @@
 # Learning Phenotypic Representations from Cell Images
 
-![Cell Image Example](https://via.placeholder.com/800x400?text=Fluorescence+Microscopy+Example)
+![Cell Image Example](https://drive.google.com/uc?export=view&id=11IZPlnEl1KrPxKqxVXT1CSCUnEKIDyFP)
 ## Project Overview
 This project explores the application of self-supervised and weakly-supervised learning to extract phenotypic representations from high-content fluorescent microscopy images. Building upon the **WS-DINO** framework, we leverage weak label information (such as treatment and compound metadata) to improve mechanism of action (MoA) prediction without requiring single-cell cropping as a pre-processing step.
 
@@ -35,7 +35,8 @@ We apply a rigorous CellProfiler and Python pipeline:
 2.  **WS-DINO:** Incorporates "weak labels" (Unique Compounds or Treatments). Crops from images sharing the same metadata are treated as positive pairs.
 3.  **DINOv3:** An improved architecture incorporating Gram Anchoring to enhance segmentation and representation learning.
 
-![ViT Architecture](https://via.placeholder.com/800x400?text=Vision+Transformer+Architecture)
+![ViT Architecture](https://drive.google.com/uc?export=view&id=1H-7ZouWpXcvhxfI_48CAE6am30E-npgr)
+)
 ## Experimental Results
 Models were evaluated based on **Not-Same-Compound-and-Batch (NSCB) Accuracy**.
 
@@ -52,7 +53,7 @@ The final **DINOv3 model (3 channels)** achieved the highest NSCB accuracy of **
 ## Visualization
 We utilized t-SNE clustering and RGB feature map visualizations (Layer-3 vs Layer-6) to demonstrate that the DINOv3 model learns more structurally meaningful phenotypic profiles compared to the vanilla DINO baseline.
 
-![t-SNE Clustering](https://via.placeholder.com/800x400?text=t-SNE+Feature+Clustering)
+![t-SNE Clustering](https://drive.google.com/uc?export=view&id=1TvnNh4FoubPG3AQjaHu4BFTngir3x5gx)
 ## Citation
 
 ```
