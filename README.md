@@ -1,4 +1,4 @@
-# Learning Phenotypic Representations from Cell Images
+# Drug Classification from Cell Morphology
 
 ![Cell Image Example](https://drive.google.com/uc?export=view&id=11IZPlnEl1KrPxKqxVXT1CSCUnEKIDyFP)
 ## Project Overview
